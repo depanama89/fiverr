@@ -1,10 +1,10 @@
 import React from 'react'
-import "./login.scss"
+import "./Login.scss"
 
-const login = () => {
+const Login = () => {
   return (
     <div>login</div>
   )
 }
 
-export default login
+export default Login

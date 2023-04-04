@@ -1,0 +1,21 @@
+.trustedby{
+    background-color: #fafafa;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 760px;
+        gap: 20px;
+        color: lightgray;
+        font-weight: 500;
+
+        img{
+            height: 50px;
+            object-fit: contain;
+        }
+    }
+}

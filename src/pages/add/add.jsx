@@ -1,11 +1,11 @@
 import React from 'react'
-import "./add.scss"
+import "./Add.scss"
 
 
-const add = () => {
+const Add = () => {
   return (
     <div className="add">add</div>
   )
 }
 
-export default add
+export default Add

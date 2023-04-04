@@ -1,0 +1,89 @@
+.featured{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #013914;
+    color: white;
+    .container{
+        width: 1400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            justify-content: center;
+            padding-left: 10%;
+            gap: 30px;
+
+            h1{
+                font-size: 50px;
+
+
+                i{
+                    font-weight: 300;
+                }
+               
+            }
+            .search{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                border-radius: 5px;
+                .searchInput{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        margin: 10px;
+                    }
+                    input{
+                        border: none;
+                        outline: none;
+                    }
+
+                }
+                button{
+                    width: 120px;
+                    height: 50px;
+                    border: none;
+                    background-color: #1dbf73;
+                    cursor: pointer;
+
+                }
+            }
+            .popular{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                span{}
+                button{
+                    border-radius: 20px;
+                    border: 1px solid white;
+                    outline: none;
+                    padding: 5px 10px;
+                    background-color: transparent;
+                    color: white;
+                    cursor: pointer;
+                    font-size: 14px;
+                }
+            }
+
+        }
+        .right{
+            height: 100%;
+
+            img{
+                height: 100%;
+                object-fit: contain;
+            }
+
+        }
+    }
+}
