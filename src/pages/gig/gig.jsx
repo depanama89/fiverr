@@ -68,44 +68,44 @@ const Gig = () => {
                   </div>
               </div>
           
-            <div className="box">
-              <div className="items">
-                <div className="item">
-                  <span className="title">From</span>
-                  <span className="desc">USA</span>
-                </div>
-                <div className="item">
-                  <span className="title">Member since</span>
-                  <span className="desc">Aug 2022</span>
-                </div>
-                <div className="item">
-                  <span className="title">Avg. response time</span>
-                  <span className="desc">4 hours</span>
-                </div>
-                <div className="item">
-                  <span className="title">Last delivery</span>
-                  <span className="desc">1 day</span>
-                </div>
-                <div className="item">
-                  <span className="title">Languages</span>
-                  <span className="desc">English</span>
-                </div>
+              <div className="box">
+                <div className="items">
+                  <div className="item">
+                    <span className="title">From</span>
+                    <span className="desc">USA</span>
+                  </div>
+                  <div className="item">
+                    <span className="title">Member since</span>
+                    <span className="desc">Aug 2022</span>
+                  </div>
+                  <div className="item">
+                    <span className="title">Avg. response time</span>
+                    <span className="desc">4 hours</span>
+                  </div>
+                  <div className="item">
+                    <span className="title">Last delivery</span>
+                    <span className="desc">1 day</span>
+                  </div>
+                  <div className="item">
+                    <span className="title">Languages</span>
+                    <span className="desc">English</span>
+                  </div>
 
+                </div>
+                <hr/>
+                <p>
+                  My name is Anna, I enjoy creating AI generated art in my spare
+                  time. I have a lot of experience using the AI program and that
+                  means I know what to prompt the AI with to get a great and
+                  incredibly detailed result.
+                </p>
               </div>
-              <hr/>
-              <p>
-                My name is Anna, I enjoy creating AI generated art in my spare
-                time. I have a lot of experience using the AI program and that
-                means I know what to prompt the AI with to get a great and
-                incredibly detailed result.
-              </p>
-            </div>
           </div>
-          {/*<div className="reviews">
+          <div className="reviews">
             <h2>Reviews</h2>
             <div className="item">
               <div className="user">
-              <img src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+                <img src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" className='ppr'  />
                 <div className="info">
                   <span>John Doe</span>
                   <div className="country">
@@ -143,7 +143,7 @@ const Gig = () => {
             <hr/>
             <div className="item">
               <div className="user">
-              <img src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+              <img src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" className='ppr' />
                 <div className="info">
                   <span>John Doe</span>
                   <div className="country">
@@ -181,7 +181,7 @@ const Gig = () => {
             <hr/>
             <div className="item">
               <div className="user">
-              <img src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+              <img src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""  className='ppr'/>
                 <div className="info">
                   <span>John Doe</span>
                   <div className="country">
@@ -216,10 +216,42 @@ const Gig = () => {
                 <span>No</span>
               </div>
             </div>
-          </div> */}
+          </div>
 
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="price">
+            <h2>Basic Package</h2>
+            <span>10$</span>
+          </div>
+          <p>Amazon brand story design for 1 Brand</p>
+          <div className="details">
+            <div className="item">
+              <img src="/img/clock.png" alt="" />
+              <span>2 days Delivery</span>
+            </div>
+            <div className="item">
+              <img src="/img/recycle.png" alt="" />
+              <span>3 révisions</span>
+            </div>
+
+          </div>
+          <div className="features">
+            <div className="item">
+              <img src="/img/greencheck.png" alt="" />
+              <span>Artwork delivery</span>
+            </div>
+            <div className="item">
+              <img src="/img/greencheck.png" alt="" />
+              <span>Image upscaling</span>
+            </div>
+            <div className="item">
+              <img src="/img/greencheck.png" alt="" />
+              <span>Additional design</span>
+            </div>
+          </div>
+          <button>Continue</button>
+        </div>
       </div>
     </div>
   )

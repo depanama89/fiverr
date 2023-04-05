@@ -121,34 +121,195 @@
                         }
                     }
                 }
-            }
-            .box{
-                border: 1px solid lightgray;
-                padding: 20px;
-                margin-top: 20px;
-                border-radius: 5px;
-
-                .items{
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-
-                    .item{
+                .box{
+                    border: 1px solid lightgray;
+                    padding: 20px;
+                    margin-top: 20px;
+                    border-radius: 5px;
+    
+                    .items{
                         display: flex;
-                        flex-direction: column;
-                        margin-bottom: 20px;
-                        width: 300px;
-                        gap: 10px;
-
-                        .title{
-                            font-weight: 300;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+    
+                        .item{
+                            display: flex;
+                            flex-direction: column;
+                            margin-bottom: 20px;
+                            width: 300px;
+                            gap: 10px;
+    
+                            .title{
+                                font-weight: 300;
+                            }
                         }
+                    }
+                    hr{
+                        height: 0;
+                        border: 1px solid lightgray;
+                        margin-bottom: 20px;
                     }
                 }
             }
+            .reviews{
+                margin-top: 50px;
+
+                .item{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    margin: 20px 0;
+
+                    .user{
+                        display: flex;
+
+                        .ppr{
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            object-fit: cover;
+                        }
+                        .info{
+                            display: flex;
+                            gap: 5px;
+                            flex-direction: column;
+
+                            .country{
+                                display: flex;
+                                align-items: center;
+                                gap: 10px;
+
+                                img{
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .stars{
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+
+                        img{
+                            width: 14px;
+                            height: 14px;
+                        }
+
+                        span{
+                            font-weight: bold;
+                            font-size: 14px;
+                            color: #ffc100;
+                        }
+                    }
+                    .helpful{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        img{
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+                hr{
+                    height: 0px;
+                    border: .5px solid lightgray;
+                    margin: 50px;
+                }
+
+            }
+            
         }
         .right{
             flex: 1;
+            border:1px solid lightgray;
+            border-radius: 5px;
+            padding: 20px ;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            position: sticky;
+            top: 150px;
+            height: max-content;
+            max-height: 500px;
+           
+            .price{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                align-items: center;
+
+                h2{
+                    font-size: 14px;
+                }
+
+                span{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+            p{
+                color: gray;
+                margin: 10px 0px;
+            }
+            .details{
+                
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 14px;
+
+                .item{
+                    display: flex;                    
+                    padding-bottom: 10px;
+                    align-items: center;
+                    gap: 10px;
+                    
+
+                    img{
+                        width: 10px;
+                        height: 10px;
+                        object-fit: cover;
+                    }
+                }
+
+            }
+            .features{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .item{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-bottom: 10px;
+                    font-weight: 300;
+                    color: gray;
+
+                    img{
+                        width: 14px;
+                        height: 14px;
+                    }
+
+                    span{
+                        font-size: 14px;
+                    }
+                }
+            }
+            button{
+                padding: 10px 20px;
+                width: max-content;
+                cursor: pointer;
+                border: 1px solid transparent;
+                background-color:#1dbf73;
+                color: white;
+                font-size: 18px;
+                font-weight: 500;
+            }
         }
     }
 }

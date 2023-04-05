@@ -58,7 +58,7 @@ const Navbar = () => {
                           currentUser?.isSeller && (
                             <>
                               <Link to="/gigs">Gigs</Link>
-                              <Link to="/add">Add New</Link>
+                              <Link to="/mygigs">Add New</Link>
                             
                             </>
                           )
@@ -110,6 +110,7 @@ const Navbar = () => {
             </Link>
             
           </div> 
+          <hr/>
         
         </>
           )
