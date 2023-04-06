@@ -55,6 +55,11 @@
                 }
             }
         }
+        hr{
+            height: 0;
+            border: 0.5px solid rgb(228, 226, 226);
+            margin-bottom: 20px;
+        }
 
         .write{
             display: flex;
@@ -67,6 +72,18 @@
                 padding: 10px;
                 border: 1px solid lightgray;
                 border-radius: 10px;
+                outline: 0.5px solid lightgray;
+            }
+
+            button{
+                background-color: #1dbf73;
+                padding: 20px;
+                color: white;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                width: 100px;
+                font-weight: 500;
+                cursor: pointer;
             }
         }
 

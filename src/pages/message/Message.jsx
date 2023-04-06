@@ -77,9 +77,10 @@ const Message = () => {
 
                 </div>
             </div>
+            <hr/>
             <div className="write">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button>Save</button>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button>Save</button>
             </div>
         </div>
 
