@@ -10,6 +10,7 @@ import Messages from "./pages/messages/Messages"
 import MyGigs from "./pages/myGigs/MyGigs"
 import Orders from "./pages/orders/Orders"
 import Register from "./pages/register/Register"
+import Message from './pages/message/Message'
 import {
   createBrowserRouter,
   RouterProvider,Outlet
@@ -68,8 +69,8 @@ function App() {
           
         },
         {
-          path:"/messages/:id",
-          element:<Messages/>
+          path:"/message/:id",
+          element:<Message/>
           
         }
       ]
